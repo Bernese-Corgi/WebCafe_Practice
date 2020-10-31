@@ -31,13 +31,6 @@ body {
 .main {
   background-color: #dfcbad;
   overflow: hidden;
-
-}
-
-.clearfix::after {
-  content: '';
-  clear: both;
-  display: block;
 }
 
 .group1,
