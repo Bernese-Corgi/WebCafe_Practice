@@ -38,6 +38,26 @@ body {
 
 .main {
   background-color: #dfcbad;
+  height: 400px;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px 0;
+  justify-content: space-evenly;
+}
+
+.group1 {
+  background-color: #a8814a;
+  width: 250px;
+}
+
+.group2 {
+  background-color: #617b48;
+  width: 380px;
+}
+
+.group3 {
+  background-color: #966734;
+  width: 190px;
 }
 
 .slogan {
