@@ -2,6 +2,12 @@
 @import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
 @import url(./fontello.css);
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 10px;
 }
@@ -28,46 +34,45 @@ body {
   margin: 0 auto;
 }
 
-.main {
-  background-color: #dfcbad;
-  overflow: hidden;
-}
-
-.group1,
-.group2,
-.group3 {
-  height: 200px;
-}
-
-.group1 {
-  background-color: #a8814a;
-  width: 250px;
-  float: left;
-}
-
-.group2 {
-  background-color: #617b48;
-  width: 380px;
-  float: left;
-}
-
-.group3 {
-  background-color: #966734;
-  width: 190px;
-  float: left;
-}
-
 .header {
   background-color: #6696ab;
 }
 
 .visual {
   background-color: #a1bcca;
+  height: 120px;
 }
 
 .main {
   background-color: #dfcbad;
+  padding: 30px 15px;
+  overflow: hidden;
+  min-height: 450px;
 }
+
+.group1,
+.group2,
+.group3 {
+  margin: 0 15px;
+  float: left;
+}
+
+.group1 {
+  background-color: #a8814a;
+  width: 250px;
+}
+
+.group2 {
+  background-color: #617b48;
+  width: 380px;
+}
+
+.group3 {
+  background-color: #966734;
+  width: 190px;
+}
+
+
 
 .slogan {
   background-color: #a1bcca;
