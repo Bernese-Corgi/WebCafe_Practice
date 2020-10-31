@@ -32,6 +32,12 @@ body {
   background-color: #dfcbad;
 }
 
+.main::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
 .group1,
 .group2,
 .group3 {
@@ -54,10 +60,6 @@ body {
   background-color: #966734;
   width: 190px;
   float: left;
-}
-
-.clearfix {
-  clear: both;
 }
 
 .header {
