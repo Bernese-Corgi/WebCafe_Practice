@@ -34,8 +34,19 @@ body {
   margin: 0 auto;
 }
 
+/* 헤더 */
 .header {
   background-color: #6696ab;
+  position: relative;
+  border-radius: 0 0 15px 15px;
+}
+
+/* 로고 */
+.logo {
+  margin: 0;
+  position: absolute;
+  top: 50px;
+  left: 65px;
 }
 
 .visual {
