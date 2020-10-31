@@ -30,7 +30,6 @@ body {
 
 .main {
   background-color: #dfcbad;
-  height: 400px;
 }
 
 .group1,
@@ -55,6 +54,10 @@ body {
   background-color: #966734;
   width: 190px;
   float: left;
+}
+
+.clearfix {
+  clear: both;
 }
 
 .header {
