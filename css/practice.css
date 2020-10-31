@@ -32,7 +32,7 @@ body {
   background-color: #dfcbad;
 }
 
-.main::after {
+.clearfix::after {
   content: '';
   clear: both;
   display: block;
