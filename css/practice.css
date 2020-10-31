@@ -17,3 +17,39 @@ body {
 .skip-nav {
   display: none;
 }
+
+/* 레이아웃 */
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.header,
+.visual,
+.main,
+.slogan {
+  width: 940px;
+}
+
+.header {
+  background-color: #6696ab;
+}
+
+.visual {
+  background-color: #a1bcca;
+}
+
+.main {
+  background-color: #dfcbad;
+}
+
+.slogan {
+  background-color: #a1bcca;
+}
+
+.footer {
+  background-color: #af8651;
+  width: 100%;
+}
