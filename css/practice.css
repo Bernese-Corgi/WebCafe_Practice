@@ -11,3 +11,9 @@ body {
   font-size: 1.4rem;
   color: #181818;
 }
+
+/* 스킵 네비게이션 */
+
+.skip-nav {
+  display: none;
+}
