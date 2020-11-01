@@ -2,6 +2,12 @@
 @import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
 @import url(./fontello.css);
 
+/* 숨김 제목 및 숨김 컨텐츠 */
+.a11y-hidden {
+  position: absolute;
+  top: -9999px;
+}
+
 *,
 *::before,
 *::after {
@@ -73,6 +79,9 @@ a {
   padding: 6px 0;
   display: inline-block;
 }
+
+/* 네비게이션 */
+
 
 .visual {
   background-color: #a1bcca;
