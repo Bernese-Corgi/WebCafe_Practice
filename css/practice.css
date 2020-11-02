@@ -88,7 +88,6 @@ a {
 /* 네비게이션 */
 
 .navigation {
-  background: royalblue;
   padding-bottom: 80px;
 }
 
@@ -100,6 +99,25 @@ a {
   height: 47px;
   border-top: 2px solid #181818;
   border-radius: 0 0 5px 5px;
+  padding-left: 225px;
+}
+
+.menu-item {
+  float: left;
+}
+
+.menu-button {
+  cursor: pointer;
+  border: none;
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 700;
+  line-height: 45px;
+  padding: 0 20px;
+  background: transparent;
+  border-left: 2px solid rgba(250, 250, 250, 0.6);
+  text-shadow: 1px 0 0 #181818, 0 1px 0 #181818, -1px 0 #181818,
+    0 -1px 0 #181818;
 }
 
 .sub-menu {
@@ -109,13 +127,6 @@ a {
   display: none;
 }
 
-.menu-button {
-  border: none;
-  font-size: 1.6rem;
-  color: #fff;
-  font-weight: 700;
-  background: transparent;
-}
 
 .visual {
   background-color: #a1bcca;
