@@ -85,6 +85,38 @@ a {
   display: inline-block;
 }
 
+/* 네비게이션 */
+
+.navigation {
+  background: royalblue;
+  padding-bottom: 80px;
+}
+
+.menu {
+  background: linear-gradient(to bottom, #a1bcca 0%, #6696ab 38%, #6696ab 63%, #a1bcca 100%);
+  padding-left: 0;
+  margin: 10px 0 0 0;
+  list-style: none;
+  height: 47px;
+  border-top: 2px solid #181818;
+  border-radius: 0 0 5px 5px;
+}
+
+.sub-menu {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  display: none;
+}
+
+.menu-button {
+  border: none;
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 700;
+  background: transparent;
+}
+
 .visual {
   background-color: #a1bcca;
   height: 120px;
@@ -96,6 +128,7 @@ a {
   overflow: hidden;
   min-height: 450px;
 }
+
 
 .group1,
 .group2,
