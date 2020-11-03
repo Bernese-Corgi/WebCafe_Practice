@@ -120,13 +120,16 @@ a {
     0 -1px 0 #181818;
 }
 
+.menu-act .menu-button {
+  color: #ff0;
+}
+
 .sub-menu {
   padding-left: 0;
   margin: 0;
   list-style: none;
   display: none;
 }
-
 
 .visual {
   background-color: #a1bcca;
