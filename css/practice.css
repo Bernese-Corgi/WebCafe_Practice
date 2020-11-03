@@ -128,7 +128,14 @@ a {
   padding-left: 0;
   margin: 0;
   list-style: none;
-  display: none;
+  /* display: none; */
+  position: absolute;
+  width: 400px;
+  background: pink;
+}
+
+.sub-menu li {
+  float: left;
 }
 
 .visual {
