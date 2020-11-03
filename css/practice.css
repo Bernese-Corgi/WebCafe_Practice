@@ -204,6 +204,7 @@ a {
 }
 
 .visual-text {
+  width: 500px;
   background: lightsalmon;
   margin: 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
