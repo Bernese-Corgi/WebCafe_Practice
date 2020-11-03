@@ -113,8 +113,8 @@ a {
   color: #fff;
   font-weight: 700;
   line-height: 45px;
-  padding: 0 20px;
   background: transparent;
+  padding: 0 20px;
   border-left: 2px solid rgba(250, 250, 250, 0.6);
   text-shadow: 1px 0 0 #181818, 0 1px 0 #181818, -1px 0 #181818,
     0 -1px 0 #181818;
@@ -123,6 +123,13 @@ a {
 .menu-act .menu-button {
   color: #ff0;
 }
+
+.menu-act .menu-button::after {
+  content: "";
+  display: block;
+  border-top: 2px solid #000;
+}
+
 
 .sub-menu {
   padding-left: 0;
@@ -135,6 +142,20 @@ a {
 
 .sub-menu li {
   display: inline-block;
+}
+
+.sub-menu a::before {
+  content: '\f192';
+  font-family: 'fontello';
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+}
+
+.sub-menu a:hover::before,
+.sub-menu a:focus::before {
+  content: '\e800';
 }
 
 .visual {
