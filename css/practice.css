@@ -27,6 +27,7 @@ body {
   font-family: 'Spoqa Han Sans', 'Sans-serif';
   font-size: 1.4rem;
   color: #181818;
+  background: #ccc;
 }
 
 /* 링크 스타일 */
@@ -88,7 +89,7 @@ a {
 /* 네비게이션 */
 
 .navigation {
-  padding-bottom: 80px;
+  padding-bottom: 35px;
 }
 
 .menu {
@@ -135,13 +136,19 @@ a {
   padding-left: 0;
   margin: 0;
   list-style: none;
-  /* display: none; */
+  display: none;
   position: absolute;
   white-space: nowrap;
 }
 
 .sub-menu li {
   display: inline-block;
+}
+
+.sub-menu a {
+  padding: 8px 0;
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .sub-menu a::before {
@@ -156,6 +163,22 @@ a {
 .sub-menu a:hover::before,
 .sub-menu a:focus::before {
   content: '\e800';
+}
+
+.menu-act .sub-menu {
+  display: block;
+}
+
+.sub-menu1,
+.sub-menu2,
+.sub-menu3 {
+  /* left: 0; */
+}
+
+.sub-menu4,
+.sub-menu5,
+.sub-menu6 {
+  right: 0;
 }
 
 .visual {
