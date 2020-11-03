@@ -182,14 +182,6 @@ a {
 }
 
 /* 비주얼 */
-.visual {
-  background-color: #a1bcca;
-  height: 120px;
-}
-
-.visual-text {
-  margin: 0;
-}
 
 /* 비주얼 - 텍스트 애니메이션 */
 @keyframes textAni {
@@ -204,6 +196,20 @@ a {
     color: rgba(0, 0, 0, 1);
     transform: translate(400px, 75px);
   }
+}
+
+.visual {
+  background-color: #a1bcca;
+  height: 120px;
+}
+
+.visual-text {
+  background: lightsalmon;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  animation-name: textAni;
+  animation-duration: 3000ms;
+  animation-fill-mode: forwards;
 }
 
 .main {
